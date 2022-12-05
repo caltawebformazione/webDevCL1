@@ -1,11 +1,11 @@
-## Per convertire il presente documento
+## <span id="anchor"></span>Per convertire il presente documento
 
-### Da odt a md:
+### <span id="anchor"></span>Da odt a md:
 
 pandoc -f odt -t gfm Progetto\\ corso\\ sviluppatore\\ web\\
 full-stack.odt \> README.md
 
-## Da md a odt
+## <span id="anchor"></span>Da md a odt
 
 pandoc -f gfm -t odt README.md \> Progetto\\ corso\\ sviluppatore\\
 web\\ full-stack.odt
@@ -13,7 +13,7 @@ web\\ full-stack.odt
 ## <span id="anchor"></span>Proposta di strutturazione in moduli del progetto di formazione per sviluppatori web **f**ull-**s**tack
 
 Esistono diverse alternative per la scelta del framework back end.
-Nodejs, oltre che una scelta ben supportata ed efficiente ha il
+Nodejs, oltre che una scelta Gben supportata ed efficiente ha il
 vantaggio di poter essere scelto senza dover imparare un nuovo
 linguaggio per chi conosce javascript. Javascript deve necessariamente
 essere conosciuto a prescindere, perché allo stato è l'unico linguaggio
@@ -147,3 +147,50 @@ abbiamo pensato a due possibili approcci.
     un cms basato su php, nella fattispecie Wordpress. Si tratterebbe,
     in questo caso, di realizzare un semplice template molto basico con
     articoli e menu.
+
+# 
+
+# Calendario
+
+|                                                                                                               |                                                                          |                  |                          |        |                 |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------- | ------------------------ | ------ | --------------- |
+|                                                                                                               | UD                                                                       | Ore teoria       | Ore pratica modulo scrum | Giorni | Ore pomeridiane |
+| **Nozioni sulle reti e sui sistemi operativi indispensabili**                                                 | ETHERNET                                                                 | 1                | 2                        | 2      |                 |
+|                                                                                                               | TCP/IP, SOCKET                                                           | 5                | 2                        |        |                 |
+|                                                                                                               | HTTP/REST                                                                | 9                | 2                        |        |                 |
+|                                                                                                               | HTTPS                                                                    | 8                | 2                        |        |                 |
+|                                                                                                               | REST                                                                     | 8                | 2                        | 6,2    |                 |
+| **Basi di HTML5, DOM e CSS**                                                                                  | linguaggi di Markup                                                      | 1                | 0                        |        |                 |
+|                                                                                                               | Principali tag HTML5                                                     | 8                | 8                        |        |                 |
+|                                                                                                               | Nozioni sul DOM e linguaggio selezione CSS                               | 8                | 8                        |        |                 |
+|                                                                                                               | CSS3 Descrizione ed utilizzo della documentazione di riferimento on line | 8                | 8                        |        |                 |
+| **Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client** | Linguaggi di imperativi e funzionali                                     | 8                | 8                        |        |                 |
+|                                                                                                               | Nozioni di OOP                                                           | 8                | 8                        |        |                 |
+|                                                                                                               | Javascript sintassi e costrutti base                                     | 8                | 8                        |        |                 |
+|                                                                                                               | manimpolazione DOM                                                       | 8                | 8                        |        |                 |
+|                                                                                                               | gestione Eventi                                                          | 8                | 8                        |        |                 |
+|                                                                                                               | Javascript ES6                                                           | 8                | 8                        |        |                 |
+| **sql**                                                                                                       | Daabase linguaggio definizione                                           | 8                | 8                        |        |                 |
+|                                                                                                               | manipolazione                                                            | 8                | 8                        |        |                 |
+|                                                                                                               | interrogazione                                                           | 8                | 8                        | 128    |                 |
+| **NoSql**                                                                                                     | mongoDb                                                                  | 8                | 8                        |        |                 |
+|                                                                                                               | creazione documenti                                                      | 8                | 8                        |        |                 |
+|                                                                                                               | interrogazione                                                           | 8                | 8                        |        |                 |
+|                                                                                                               | manipolazione                                                            | 8                | 8                        |        |                 |
+| **Back-End Node-JS**                                                                                          | Enviroment Node                                                          | 8                | 8                        |        |                 |
+|                                                                                                               | instanziare un Server Express                                            | 8                | 8                        |        |                 |
+|                                                                                                               | Connessione Databe Orm                                                   | 8                | 8                        |        |                 |
+|                                                                                                               | Routing API                                                              | 8                | 8                        |        |                 |
+|                                                                                                               | SOCKET IO                                                                | 8                | 8                        |        |                 |
+|                                                                                                               | Descrizione del progetto da realizzare, rest api e test                  | 8                | 8                        |        |                 |
+| **Framework client ReactJs**                                                                                  | WHY REACT                                                                | 8                | 8                        |        |                 |
+|                                                                                                               | PWA (progressive web application)                                        | 8                | 8                        |        |                 |
+|                                                                                                               | Cicli di vita e state management                                         | 8                | 8                        |        |                 |
+|                                                                                                               | React Hooks                                                              | 8                | 8                        |        |                 |
+|                                                                                                               | React router                                                             | 8                | 8                        |        |                 |
+|                                                                                                               | interazione con il Server                                                | 8                | 8                        |        |                 |
+|                                                                                                               | Nozioni di Redux Observable                                              | 8                | 8                        |        |                 |
+| **Introduzione alla programmazione ad oggetti con PHP**                                                       | Introduzione PHP                                                         | 8                | 8                        |        |                 |
+|                                                                                                               | Crezione API (almeno 1) di riferimento in PHP                            | 8                | 8                        |        |                 |
+|                                                                                                               |                                                                          | 280              | 258                      |        |                 |
+|                                                                                                               |                                                                          | 15,7894736842105 |                          |        |                 |
