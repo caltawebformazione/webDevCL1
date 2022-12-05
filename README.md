@@ -54,40 +54,54 @@ suddiviso nelle seguenti parti:
     strumenti
   - processi AGILE ed introduzione a SCRUM utilizzando i progetti Github
 
-### <span id="anchor-3"></span>Programmazione browser
+### Basi di HTML5, DOM e CSS
 
 Questa prima parte del corso si focalizzerebbe sul front-end, con i
 seguenti moduli:
 
   - html5,
   - css3,
-  - javascript lato client.
 
-Il modulo javascript dovrebbe mettere l'accento sulla manipolazione del
-DOM, il drag and drop gli eventi touch. Il modulo sul css3 dovrebbe
+Il modulo ha come oggetto la conoscenza delle basi di HTML5, del
+Document Object Model e di CSS3. L’obiettivo del modulo è mettere in
+grado di creare semplici pagine statiche utilizzando il browser e l’ IDE
+prescelto. In questo primo modulo, pertanto, si inizierà ad usare un IDE
+scelto tra Web Storm o VS-Code. La parte reladiva al css3 dovrebbe
 essere particolarmente orientato al comportamento responsive, oltre che
 sulle nozioni generali sui fogli di stile.
 
-In questa parte del corso il progetto da realizzare per passi sarebbe
-una o più pagine in html/css/javascript con giochini per esercitarsi con
-il drag and drop versione mouse e versione touch screen mobile.
+Le esercitazioni verteranno nella realizzazione di pagine statiche
+simili a quelle che verranno proiettate.
 
-### <span id="anchor-4"></span>Node-JS
+### Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client
+
+Una volta apprese le nozioni indispensabili per creare le interfacce
+html usando il DOM, in questo modulo si inizierà ad usare javascript,
+con esempi gradualmente sempre più complessi. Prendendo spunto dagli
+esempi pratici si introdurrà la programmazione orientata agli oggetti
+utilizzando il linguaggio javascript interagente col DOM di un browser.
+
+### <span id="anchor-3"></span>Back-End Node-JS (staccare sql e mongodb)
 
 Una parte successiva, per il momento, tralascerebbe il front-end per
 focalizzarsi sul lato server con node-js. Si introduce REST e si
 realizza un progetto per registrare, leggere e cancellare righe di una
-tabella di database. Questa parte avrebbe come moduli:
+tabella di database. Questa tabella conterrà i campi per la tenuta di un
+Backlog SCRUM. Questa parte avrebbe come moduli:
 
   - javascript lato server,
-  - SQL e cenni di MongoDB
-  - sequelize come ORM
-  - express per il routing,
+  - SQL e cenni di MongoDB,
+  - sequelize come ORM,
+  - express per il routing.
 
 Il server realizzato verrebbe testato con strumenti come
 <https://resttesttest.com/> o alternativi
 
-### <span id="anchor-5"></span>Framework client ReactJs
+Ciascuno potrà svolgere i propri esercizi installando NodeJs sul proprio
+computer. In un secondo momento gli allievi produrranno collettivamente
+il progetto oggetto del modulo su GitHub.
+
+### <span id="anchor-4"></span>Framework client ReactJs
 
 In questa parte viene realizzato il front end per l’aggiornamento dei
 dati tabellari con prove di comunicazione ajax con il server che esegue
@@ -99,17 +113,16 @@ seguenti:
   - Realizzare una form in doppio formato tabellare e maschera, per la
     comunicazione REST col server che esegue il progetto realizzato
     nella seconda parte.
-  - javascript con una personalizzazione a seconda del tipo di corso..
-    Per il back-end rincarerei la dose su e come ORM e sequelize come
-    ORM. Inizierei con mysql/mariadb con una puntata su mongodb. Io
-    darei il tempo di assimilare e di esercitarsi ai ragazzi, quindi
-    staccherei temporalmente i due corsi ed i moduli all'interno dei
-    corsi.
 
-Se si adopera NodeJs i ragazzi possono testare quello che fanno
-direttamente nel proprio computer.
+Adoperando il progetto in precedenza realizzato in precedenza con NodeJs
+i ragazzi potranno testare i propri componenti ReactJs facendoli
+comunicare in REST con esso. Anche in questa fase si organizzeranno le
+esercitazioni, in un primo momento con prove da implementare sul proprio
+computer e successivamente produrranno in modo collaborativo il progetto
+oggetto del modulo, anche suddividendo tra diversi gruppi parti del
+progetto.
 
-### <span id="anchor-6"></span>PHP in Wordpress
+### <span id="anchor-5"></span>Introduzione alla programmazione ad oggetti con PHP
 
 Per introdurre gli allievi ad un linguaggio molto diffuso lato server
 abbiamo pensato a due possibili approcci.
