@@ -1,3 +1,15 @@
+## Per convertire il presente documento
+
+### Da odt a md:
+
+pandoc -f odt -t gfm Progetto\\ corso\\ sviluppatore\\ web\\
+full-stack.odt \> README.md
+
+## Da md a odt
+
+pandoc -f gfm -t odt README.md \> Progetto\\ corso\\ sviluppatore\\
+web\\ full-stack.odt
+
 ## <span id="anchor"></span>Proposta di strutturazione in moduli del progetto di formazione per sviluppatori web **f**ull-**s**tack
 
 Esistono diverse alternative per la scelta del framework back end.
@@ -29,14 +41,14 @@ di non avere necessità di approfondire tutto ed attirare persone che
 avrebbero timore di un eccessivo sovraccarico. Il corso si dovrebbe
 articolare nelle seguenti parti:
 
-### <span id="anchor-1"></span>Nozioni sulle reti e sui sistemi operativi indispensabili
+### <span id="anchor"></span>Nozioni sulle reti e sui sistemi operativi indispensabili
 
 Questo modulo si propone di verificare ed integrare la conoscenza delle
 nozioni indispensabili sull’utilizzo dei computer dei sistemi operativi,
 sui server, su Internet ed i protocolli di rete TCP/IP, HTTP. HTTPS,
 Ethernet.
 
-### <span id="anchor-2"></span>Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP
+### <span id="anchor"></span>Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP
 
 Questo modulo, precede gli altri, ma serve solo a gettare le basi del
 versioning con git. Comunque solo l’applicazione concreta del versioning
@@ -54,7 +66,7 @@ suddiviso nelle seguenti parti:
     strumenti
   - processi AGILE ed introduzione a SCRUM utilizzando i progetti Github
 
-### Basi di HTML5, DOM e CSS
+### <span id="anchor"></span>Basi di HTML5, DOM e CSS
 
 Questa prima parte del corso si focalizzerebbe sul front-end, con i
 seguenti moduli:
@@ -73,7 +85,7 @@ sulle nozioni generali sui fogli di stile.
 Le esercitazioni verteranno nella realizzazione di pagine statiche
 simili a quelle che verranno proiettate.
 
-### Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client
+### <span id="anchor"></span>Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client
 
 Una volta apprese le nozioni indispensabili per creare le interfacce
 html usando il DOM, in questo modulo si inizierà ad usare javascript,
@@ -81,7 +93,7 @@ con esempi gradualmente sempre più complessi. Prendendo spunto dagli
 esempi pratici si introdurrà la programmazione orientata agli oggetti
 utilizzando il linguaggio javascript interagente col DOM di un browser.
 
-### <span id="anchor-3"></span>Back-End Node-JS (staccare sql e mongodb)
+### <span id="anchor"></span>Back-End Node-JS (staccare sql e mongodb)
 
 Una parte successiva, per il momento, tralascerebbe il front-end per
 focalizzarsi sul lato server con node-js. Si introduce REST e si
@@ -101,7 +113,7 @@ Ciascuno potrà svolgere i propri esercizi installando NodeJs sul proprio
 computer. In un secondo momento gli allievi produrranno collettivamente
 il progetto oggetto del modulo su GitHub.
 
-### <span id="anchor-4"></span>Framework client ReactJs
+### <span id="anchor"></span>Framework client ReactJs
 
 In questa parte viene realizzato il front end per l’aggiornamento dei
 dati tabellari con prove di comunicazione ajax con il server che esegue
@@ -122,7 +134,7 @@ computer e successivamente produrranno in modo collaborativo il progetto
 oggetto del modulo, anche suddividendo tra diversi gruppi parti del
 progetto.
 
-### <span id="anchor-5"></span>Introduzione alla programmazione ad oggetti con PHP
+### <span id="anchor"></span>Introduzione alla programmazione ad oggetti con PHP
 
 Per introdurre gli allievi ad un linguaggio molto diffuso lato server
 abbiamo pensato a due possibili approcci.
