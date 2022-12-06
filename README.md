@@ -148,9 +148,9 @@ abbiamo pensato a due possibili approcci.
     in questo caso, di realizzare un semplice template molto basico con
     articoli e menu.
 
-# 
+# <span id="anchor"></span>
 
-# Calendario
+# <span id="anchor"></span>Calendario
 
 |                                                                                                               |                                                                          |                  |                          |        |                 |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------- | ------------------------ | ------ | --------------- |
