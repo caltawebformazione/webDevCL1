@@ -152,79 +152,83 @@ abbiamo pensato a due possibili approcci.
 
 # <span id="anchor"></span>Calendario
 
-| **MODULO**                                                                                                    | **UD**                                                  | **ORE** |         |         |
-|---------------------------------------------------------------------------------------------------------------| ------------------------------------------------------- | ------- | ------- | ------- |
-| **Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP**                                    |                                                         | **15**  | **60**  | **60**  |
-|                                                                                                               |                                                         | **15**  |         |         |
-|                                                                                                               |                                                         | **15**  |         |         |
-|                                                                                                               |                                                         | **15**  |         |         |
-| **Nozioni sulle reti e sui sistemi operativi indispensabili**                                                 | ETHERNET                                                | **4**   | **25**  | **180** |
-|                                                                                                               | TCP/IP, SOCKET                                          | **6**   |         |         |
-|                                                                                                               | HTTP/REST                                               | **6**   |         |         |
-|                                                                                                               | HTTPS                                                   | **5**   |         |         |
-|                                                                                                               | REST                                                    | **4**   |         |         |
-| **Basi di HTML5**                                                                                             | Breve storia della nascita di HTML5                     | **2**   | **28**  |         |
-|                                                                                                               | Elementi di base di una pagina web                      | **2**   |         |         |
-|                                                                                                               | Inserimento e formattazione di base del testo           | **2**   |         |         |
-|                                                                                                               | Generazione di liste                                    | **2**   |         |         |
-|                                                                                                               | Utilizzo delle tabelle                                  | **2**   |         |         |
-|                                                                                                               | Navigazione tra i contenuti delle pagine web            | **2**   |         |         |
-|                                                                                                               | Visualizzazione di immagini e creazione di mappe        | **2**   |         |         |
-|                                                                                                               | Creazione di form e controlli utente                    | **6**   |         |         |
-|                                                                                                               | Elementi per la strutturazione di una pagina HTML       | **2**   |         |         |
-|                                                                                                               | Elementi semantici per il testo                         | **2**   |         |         |
-|                                                                                                               | Miscellanea di elementi                                 | **4**   |         |         |
-| **CSS3**                                                                                                      | Regole e selettori di base                              | **2**   | **50**  |         |
-|                                                                                                               | Associazione di regole CSS                              | **4**   |         |         |
-|                                                                                                               | Selettori avanzati                                      | **4**   |         |         |
-|                                                                                                               | Pseudo-classi                                           | **4**   |         |         |
-|                                                                                                               | Pseudo-elementi                                         | **2**   |         |         |
-|                                                                                                               | Organizzazione a cascata                                | **2**   |         |         |
-|                                                                                                               | L’ereditarietà                                          | **2**   |         |         |
-|                                                                                                               | Valori e unità                                          | **2**   |         |         |
-|                                                                                                               | Il box model                                            | **2**   |         |         |
-|                                                                                                               | Proprietà dei font                                      | **4**   |         |         |
-|                                                                                                               | Proprietà del testo                                     | **4**   |         |         |
-|                                                                                                               | Proprietà del colore e degli sfondi                     | **4**   |         |         |
-|                                                                                                               | Proprietà delle liste                                   | **2**   |         |         |
-|                                                                                                               | Proprietà delle tabelle                                 | **3**   |         |         |
-|                                                                                                               | Proprietà del box model                                 | **6**   |         |         |
-|                                                                                                               | Le media query                                          | **3**   |         |         |
+Occorre articolare ulteriormente il seguente calendario suddividendo le ore che seguono tra teoria e progetto.
+Il progetto sarà realizzato di pari passo, e sarà a cura del modulo SCRUM che, pertanto, dovrà essere  spalmato
+abbinando le UD pratiche con le UD previste per i moduli sottostanti.
+
+| **MODULO**                                                                                                   | **UD**                                                  | **ORE** |         |         |
+|--------------------------------------------------------------------------------------------------------------| ------------------------------------------------------- | ------- | ------- | ------- |
+| **Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP**                                   |                                                         | **15**  | **60**  | **60**  |
+|                                                                                                              |                                                         | **15**  |         |         |
+|                                                                                                              |                                                         | **15**  |         |         |
+|                                                                                                              |                                                         | **15**  |         |         |
+| **Nozioni sulle reti e sui sistemi operativi indispensabili**                                                | ETHERNET                                                | **4**   | **25**  | **180** |
+|                                                                                                              | TCP/IP, SOCKET                                          | **6**   |         |         |
+|                                                                                                              | HTTP/REST                                               | **6**   |         |         |
+|                                                                                                              | HTTPS                                                   | **5**   |         |         |
+|                                                                                                              | REST                                                    | **4**   |         |         |
+| **Basi di HTML5**                                                                                            | Breve storia della nascita di HTML5                     | **2**   | **28**  |         |
+|                                                                                                              | Elementi di base di una pagina web                      | **2**   |         |         |
+|                                                                                                              | Inserimento e formattazione di base del testo           | **2**   |         |         |
+|                                                                                                              | Generazione di liste                                    | **2**   |         |         |
+|                                                                                                              | Utilizzo delle tabelle                                  | **2**   |         |         |
+|                                                                                                              | Navigazione tra i contenuti delle pagine web            | **2**   |         |         |
+|                                                                                                              | Visualizzazione di immagini e creazione di mappe        | **2**   |         |         |
+|                                                                                                              | Creazione di form e controlli utente                    | **6**   |         |         |
+|                                                                                                              | Elementi per la strutturazione di una pagina HTML       | **2**   |         |         |
+|                                                                                                              | Elementi semantici per il testo                         | **2**   |         |         |
+|                                                                                                              | Miscellanea di elementi                                 | **4**   |         |         |
+| **CSS3**                                                                                                     | Regole e selettori di base                              | **2**   | **50**  |         |
+|                                                                                                              | Associazione di regole CSS                              | **4**   |         |         |
+|                                                                                                              | Selettori avanzati                                      | **4**   |         |         |
+|                                                                                                              | Pseudo-classi                                           | **4**   |         |         |
+|                                                                                                              | Pseudo-elementi                                         | **2**   |         |         |
+|                                                                                                              | Organizzazione a cascata                                | **2**   |         |         |
+|                                                                                                              | L’ereditarietà                                          | **2**   |         |         |
+|                                                                                                              | Valori e unità                                          | **2**   |         |         |
+|                                                                                                              | Il box model                                            | **2**   |         |         |
+|                                                                                                              | Proprietà dei font                                      | **4**   |         |         |
+|                                                                                                              | Proprietà del testo                                     | **4**   |         |         |
+|                                                                                                              | Proprietà del colore e degli sfondi                     | **4**   |         |         |
+|                                                                                                              | Proprietà delle liste                                   | **2**   |         |         |
+|                                                                                                              | Proprietà delle tabelle                                 | **3**   |         |         |
+|                                                                                                              | Proprietà del box model                                 | **6**   |         |         |
+|                                                                                                              | Le media query                                          | **3**   |         |         |
 | **Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client** | Concetti propedeutici della OOP                         | **2**   | **36**  |         |
-|                                                                                                               | Variabili, letterali e tipi                             | **5**   |         |         |
-|                                                                                                               | Array                                                   | **2**   |         |         |
-|                                                                                                               | Operatori                                               | **6**   |         |         |
-|                                                                                                               | Strutture di controllo                                  | **5**   |         |         |
-|                                                                                                               | Funzioni                                                | **3**   |         |         |
-|                                                                                                               | Oggetti                                                 | **4**   |         |         |
-|                                                                                                               | Classi e prototipi                                      | **2**   |         |         |
-|                                                                                                               | Ereditarietà e polimorfismo                             | **3**   |         |         |
-|                                                                                                               | Errori software                                         | **2**   |         |         |
-|                                                                                                               | La direttiva "use strict"                               | **2**   |         |         |
-| **Javascript lato client**                                                                                    | Il Browser Object Model (BOM)                           | **5**   | **17**  |         |
-|                                                                                                               | Il Document Object Model (DOM)                          | **4**   |         |         |
-|                                                                                                               | Gestione degli eventi                                   | **6**   |         |         |
-|                                                                                                               | Scripting dei CSS                                       | **2**   |         |         |
-| **sql**                                                                                                       | Linguaggio definizione                                  | **6**   | **24**  |         |
-|                                                                                                               | manipolazione                                           | **6**   |         |         |
-|                                                                                                               | interrogazione                                          | **12**  |         |         |
-| **NoSql**                                                                                                     | mongoDb                                                 | **20**  | **50**  | 300     |
-|                                                                                                               | creazione documenti                                     | **10**  |         |         |
-|                                                                                                               | interrogazione                                          | **10**  |         |         |
-|                                                                                                               | manipolazione                                           | **10**  |         |         |
-| **Back-End Node-JS**                                                                                          | Enviroment Node                                         | **20**  | **105** |         |
-|                                                                                                               | instanziare un Server Express                           | **20**  |         |         |
-|                                                                                                               | Connessione Databe Orm                                  | **12**  |         |         |
-|                                                                                                               | Routing API                                             | **23**  |         |         |
-|                                                                                                               | SOCKET IO                                               | **20**  |         |         |
-|                                                                                                               | Descrizione del progetto da realizzare, rest api e test | **10**  |         |         |
-| **Framework client ReactJs**                                                                                  | WHY REACT                                               | **10**  | **145** |         |
-|                                                                                                               | PWA (progressive web application)                       | **15**  |         |         |
-|                                                                                                               | Cicli di vita e state management                        | **20**  |         |         |
-|                                                                                                               | React Hooks                                             | **20**  |         |         |
-|                                                                                                               | React router                                            | **20**  |         |         |
-|                                                                                                               | interazione con il Server                               | **30**  |         |         |
-|                                                                                                               | Redux Observable                                        | **30**  |         |         |
-| **Introduzione alla programmazione ad oggetti con PHP**                                                       | Introduzione PHP                                        | **30**  | **60**  | 60      |
-|                                                                                                               | Crezione API (almeno 1) di riferimento in PHP           | **30**  |         |         |
-| Ore Totali                                                                                                    |                                                         | 600     | 600     | 600     |
+|                                                                                                              | Variabili, letterali e tipi                             | **5**   |         |         |
+|                                                                                                              | Array                                                   | **2**   |         |         |
+|                                                                                                              | Operatori                                               | **6**   |         |         |
+|                                                                                                              | Strutture di controllo                                  | **5**   |         |         |
+|                                                                                                              | Funzioni                                                | **3**   |         |         |
+|                                                                                                              | Oggetti                                                 | **4**   |         |         |
+|                                                                                                              | Classi e prototipi                                      | **2**   |         |         |
+|                                                                                                              | Ereditarietà e polimorfismo                             | **3**   |         |         |
+|                                                                                                              | Errori software                                         | **2**   |         |         |
+|                                                                                                              | La direttiva "use strict"                               | **2**   |         |         |
+| **Javascript lato client**                                                                                   | Il Browser Object Model (BOM)                           | **5**   | **17**  |         |
+|                                                                                                              | Il Document Object Model (DOM)                          | **4**   |         |         |
+|                                                                                                              | Gestione degli eventi                                   | **6**   |         |         |
+|                                                                                                              | Scripting dei CSS                                       | **2**   |         |         |
+| **sql**                                                                                                      | Linguaggio definizione                                  | **6**   | **24**  |         |
+|                                                                                                              | manipolazione                                           | **6**   |         |         |
+|                                                                                                              | interrogazione                                          | **12**  |         |         |
+| **NoSql**                                                                                                    | mongoDb                                                 | **20**  | **50**  | 300     |
+|                                                                                                              | creazione documenti                                     | **10**  |         |         |
+|                                                                                                              | interrogazione                                          | **10**  |         |         |
+|                                                                                                              | manipolazione                                           | **10**  |         |         |
+| **Back-End Node-JS**                                                                                         | Enviroment Node                                         | **20**  | **105** |         |
+|                                                                                                              | instanziare un Server Express                           | **20**  |         |         |
+|                                                                                                              | Connessione Databe Orm                                  | **12**  |         |         |
+|                                                                                                              | Routing API                                             | **23**  |         |         |
+|                                                                                                              | SOCKET IO                                               | **20**  |         |         |
+|                                                                                                              | Descrizione del progetto da realizzare, rest api e test | **10**  |         |         |
+| **Framework client ReactJs**                                                                                 | WHY REACT                                               | **10**  | **145** |         |
+|                                                                                                              | PWA (progressive web application)                       | **15**  |         |         |
+|                                                                                                              | Cicli di vita e state management                        | **20**  |         |         |
+|                                                                                                              | React Hooks                                             | **20**  |         |         |
+|                                                                                                              | React router                                            | **20**  |         |         |
+|                                                                                                              | interazione con il Server                               | **30**  |         |         |
+|                                                                                                              | Redux Observable                                        | **30**  |         |         |
+| **Introduzione alla programmazione ad oggetti con PHP**                                                      | Introduzione PHP                                        | **30**  | **60**  | 60      |
+|                                                                                                              | Crezione API (almeno 1) di riferimento in PHP           | **30**  |         |         |
+| Ore Totali                                                                                                   |                                                         | 600     | 600     | 600     |
