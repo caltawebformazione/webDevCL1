@@ -1,19 +1,9 @@
-## <span id="anchor"></span>Per convertire il presente documento
+# <span id="anchor"></span>Proposta di strutturazione in moduli del progetto di formazione per sviluppatori web **f**ull-**s**tack
 
-### <span id="anchor"></span>Da odt a md:
-
-pandoc -f odt -t gfm Progetto\\ corso\\ sviluppatore\\ web\\
-full-stack.odt \> README.md
-
-## <span id="anchor"></span>Da md a odt
-
-pandoc -f gfm -t odt README.md \> Progetto\\ corso\\ sviluppatore\\
-web\\ full-stack.odt
-
-## <span id="anchor"></span>Proposta di strutturazione in moduli del progetto di formazione per sviluppatori web **f**ull-**s**tack
+## Motivazione delle scelte effettuate
 
 Esistono diverse alternative per la scelta del framework back end.
-Nodejs, oltre che una scelta Gben supportata ed efficiente ha il
+Nodejs, oltre che una scelta ben supportata ed efficiente ha il
 vantaggio di poter essere scelto senza dover imparare un nuovo
 linguaggio per chi conosce javascript. Javascript deve necessariamente
 essere conosciuto a prescindere, perché allo stato è l'unico linguaggio
@@ -25,7 +15,7 @@ sicurezza. I framework per il front-end che vanno attualmente per la
 maggiore sono tre e sono: Angularjs, che è in declino, Reactjs che è il
 framework di facebook, che gode del primato di popolarità attuale, e
 VueJs un po’ meno popolare di ReactJs ma in crescita. Gli ultimi due si
-basano essenzialmente su un dom virtuale che è una estenzione di html
+basano essenzialmente su un dom virtuale che è una estensione di html
 che semplifica la scrittura di codice javascript. ReactJs si basa sui
 componenti che incorporano stili, codice e html, VueJs mantiene la
 separazione tra html stili e codice. Entrambi hanno una buona
@@ -41,14 +31,14 @@ di non avere necessità di approfondire tutto ed attirare persone che
 avrebbero timore di un eccessivo sovraccarico. Il corso si dovrebbe
 articolare nelle seguenti parti:
 
-### <span id="anchor"></span>Nozioni sulle reti e sui sistemi operativi indispensabili
+## <span id="anchor"></span>Nozioni sulle reti e sui sistemi operativi indispensabili
 
 Questo modulo si propone di verificare ed integrare la conoscenza delle
 nozioni indispensabili sull’utilizzo dei computer dei sistemi operativi,
 sui server, su Internet ed i protocolli di rete TCP/IP, HTTP. HTTPS,
 Ethernet.
 
-### <span id="anchor"></span>Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP
+## <span id="anchor"></span>Controllo di versione git/github e nozioni sui processi AGILE/SCRUM/UP
 
 Questo modulo, precede gli altri, ma serve solo a gettare le basi del
 versioning con git. Comunque solo l’applicazione concreta del versioning
@@ -61,18 +51,18 @@ e rendere confidenti gli allievi sull’utilizzo dell’IDE prescelto. Delle
 scelte possibili sono WebStorm di JetBrain o VS-Code. Il modulo è
 suddiviso nelle seguenti parti:
 
-  - Le basi di GIT.
-  - Introduzione a WebStorm/VS-Code ed utilizzo del versioning con tali
-    strumenti
-  - processi AGILE ed introduzione a SCRUM utilizzando i progetti Github
+- Le basi di GIT.
+- Introduzione a WebStorm/VS-Code ed utilizzo del versioning con tali
+  strumenti
+- processi AGILE ed introduzione a SCRUM utilizzando i progetti Github
 
-### <span id="anchor"></span>Basi di HTML5, DOM e CSS
+## <span id="anchor"></span>Basi di HTML5, DOM e CSS
 
 Questa prima parte del corso si focalizzerebbe sul front-end, con i
 seguenti moduli:
 
-  - html5,
-  - css3,
+- html5,
+- css3,
 
 Il modulo ha come oggetto la conoscenza delle basi di HTML5, del
 Document Object Model e di CSS3. L’obiettivo del modulo è mettere in
@@ -85,7 +75,7 @@ sulle nozioni generali sui fogli di stile.
 Le esercitazioni verteranno nella realizzazione di pagine statiche
 simili a quelle che verranno proiettate.
 
-### <span id="anchor"></span>Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client
+## <span id="anchor"></span>Introduzione alla programmazione orientata agli oggetti usando javascript e la programmazione lato client
 
 Una volta apprese le nozioni indispensabili per creare le interfacce
 html usando il DOM, in questo modulo si inizierà ad usare javascript,
@@ -93,7 +83,7 @@ con esempi gradualmente sempre più complessi. Prendendo spunto dagli
 esempi pratici si introdurrà la programmazione orientata agli oggetti
 utilizzando il linguaggio javascript interagente col DOM di un browser.
 
-### <span id="anchor"></span>Back-End Node-JS (staccare sql e mongodb)
+## <span id="anchor"></span>Back-End Node-JS (staccare sql e mongodb)
 
 Una parte successiva, per il momento, tralascerebbe il front-end per
 focalizzarsi sul lato server con node-js. Si introduce REST e si
@@ -101,30 +91,30 @@ realizza un progetto per registrare, leggere e cancellare righe di una
 tabella di database. Questa tabella conterrà i campi per la tenuta di un
 Backlog SCRUM. Questa parte avrebbe come moduli:
 
-  - javascript lato server,
-  - SQL e cenni di MongoDB,
-  - sequelize come ORM,
-  - express per il routing.
+- javascript lato server,
+- SQL e cenni di MongoDB,
+- sequelize come ORM,
+- express per il routing.
 
 Il server realizzato verrebbe testato con strumenti come
-<https://resttesttest.com/> o alternativi
+[https://resttesttest.com/](https://resttesttest.com/) o alternativi
 
 Ciascuno potrà svolgere i propri esercizi installando NodeJs sul proprio
 computer. In un secondo momento gli allievi produrranno collettivamente
 il progetto oggetto del modulo su GitHub.
 
-### <span id="anchor"></span>Framework client ReactJs
+## <span id="anchor"></span>Framework client ReactJs
 
 In questa parte viene realizzato il front end per l’aggiornamento dei
 dati tabellari con prove di comunicazione ajax con il server che esegue
 il progetto predisposto nella parte precedente. I moduli sono i
 seguenti:
 
-  - Convertire per ReactJs quanto già realizzato nella prima parte del
-    corso.
-  - Realizzare una form in doppio formato tabellare e maschera, per la
-    comunicazione REST col server che esegue il progetto realizzato
-    nella seconda parte.
+- Convertire per ReactJs quanto già realizzato nella prima parte del
+  corso.
+- Realizzare una form in doppio formato tabellare e maschera, per la
+  comunicazione REST col server che esegue il progetto realizzato
+  nella seconda parte.
 
 Adoperando il progetto in precedenza realizzato in precedenza con NodeJs
 i ragazzi potranno testare i propri componenti ReactJs facendoli
@@ -134,27 +124,26 @@ computer e successivamente produrranno in modo collaborativo il progetto
 oggetto del modulo, anche suddividendo tra diversi gruppi parti del
 progetto.
 
-### <span id="anchor"></span>Introduzione alla programmazione ad oggetti con PHP
+## <span id="anchor"></span>Introduzione alla programmazione ad oggetti con PHP
 
 Per introdurre gli allievi ad un linguaggio molto diffuso lato server
 abbiamo pensato a due possibili approcci.
 
-  - In un caso il modulo php si baserebbe sull’utilizzo di php puro
-    senza adoperare alcun framework per registrare semplici preferenze
-    utente per modificare la modalità di visualizzazione di un semplice
-    sito
-  - Un’altra possibilità sarebbe invece quella di introdurre all’uso di
-    un cms basato su php, nella fattispecie Wordpress. Si tratterebbe,
-    in questo caso, di realizzare un semplice template molto basico con
-    articoli e menu.
-
-# <span id="anchor"></span>
+- In un caso il modulo php si baserebbe sull’utilizzo di php puro
+  senza adoperare alcun framework per registrare semplici preferenze
+  utente per modificare la modalità di visualizzazione di un semplice
+  sito
+- Un’altra possibilità sarebbe invece quella di introdurre all’uso di
+  un cms basato su php, nella fattispecie Wordpress. Si tratterebbe,
+  in questo caso, di realizzare un semplice template molto basico con
+  articoli e menu.
 
 # <span id="anchor"></span>Calendario
 
 Occorre articolare ulteriormente il seguente calendario suddividendo le ore che seguono tra teoria e progetto.
 Il progetto sarà realizzato di pari passo, e sarà a cura del modulo SCRUM che, pertanto, dovrà essere  spalmato
 abbinando le UD pratiche con le UD previste per i moduli sottostanti.
+
 
 | **MODULO**                                                                                                    | **UD**                                                       | **ore** | **Teoria** | **Pratica/git/scrum** | **Pratica da remoto** | **Giorno** | **Settimana** |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|---------|------------|-----------------------|-----------------------|------------|---------------|
@@ -260,3 +249,13 @@ abbinando le UD pratiche con le UD previste per i moduli sottostanti.
 |                                                                                                               |                                                              | **5**   | 3          | 2                     | 3                     | 75         | 15            |
 |                                                                                                               |                                                              | **5**   | 3          | 2                     | 3                     | 76         | 16            |
 | Ore Totali                                                                                                    |                                                              | 380     | 235        | 146                   | 219                   |            |               |
+
+## <span id="anchor"></span>Per convertire il presente documento
+
+### <span id="anchor"></span>Da odt a md:
+
+    pandoc -f odt -t gfm "Progetto corso sviluppatore web full-stack.odt" > README.md
+
+### <span id="anchor"></span>Da md a odt
+
+    pandoc -f gfm -t odt README.md > "Progetto corso sviluppatore web full-stack.odt"
