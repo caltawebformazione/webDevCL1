@@ -1,0 +1,7 @@
+# Sono stati dati i seguenti comandi:
+
+# Generazione chiave privata e certify sign request
+openssl req -new -newkey rsa:2048 -nodes -out gold.amicopolis.csr -keyout gold.amicopolis.key
+
+# Firma della csr per ottenere un certificato autofirmato crt
+openssl x509 -req -sha256 -days 365 -in gold.amicopolis.csr -signkey gold.amicopolis.key -out gold.amicopolis.crt
