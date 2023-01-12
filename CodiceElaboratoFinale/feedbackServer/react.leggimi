@@ -1,0 +1,49 @@
+Comandi eseguiti per creare hello-world
+
+  sudo npm install -g react
+  sudo npm install -g react-native-cli
+  sudo npm install -g create-react-app
+    Installazione dei pacchetti necessari
+
+  create-react-app hello-world
+    Crea l'applicazione react
+
+  cd hello-world/
+    Una volta creata l'applicazione accedere alla sua cartella
+
+Success! Created data-table at /home/g.piazza/node/feedbackServer/data-table
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd data-table
+  npm start
+
+TUTORIAL https://react-table.js.org
+/#/story/server-side-data
+1 npm i react-table --save
+2 Creato data-table/src/Utils.js
+3 Modificato data-table/src/index.css
+4 Modificato data-table/src/App.js
+5 nessuna modifica a data-table/src/index.js
+
+/#/story/simple-table
+1 Nessuna modifica a data-table/src/Utils.js
+2 App.js viene modificato così:
+    2.1 this.state viene inizializzato vuoto
+    2.2 viene aggiunto this.fetchData
+    2.3 viene aggiunto il metodo fetchdata(state, instance)
+    

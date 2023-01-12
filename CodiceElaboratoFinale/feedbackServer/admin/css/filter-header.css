@@ -1,0 +1,11 @@
+.rdrDefinedRangesWrapper,
+.rdrMonths,
+.rdrMonthAndYearWrapper
+{
+    overflow-y: hidden;
+    max-height: 500px;
+    max-width: 500px;
+    transition-property: all;
+    transition-duration: .3s
+};
+/*transition-timingFunction: cubic-bezier(0, 1, 0.5, 1);*/

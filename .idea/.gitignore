@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+.DS_Store
+build/
+dist/
+node_modules
+node_modules/*
+package-lock.json
