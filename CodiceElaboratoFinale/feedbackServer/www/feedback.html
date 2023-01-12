@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./feedback.css">
+  <title>Feedback Form</title>
+</head>
+<div class="container">
+  <form method="POST" attion="feedback.js">
+
+    <label for="name">Nome</label>
+    <input type="text" id="fname" name="name" placeholder="Il tuo nome.."/>
+
+    <label for="email">Indirizzo email</label>
+    <input type="text" id="email" name="email" placeholder="Il tuo indirizzo email.."/>
+
+    <label for="country">Paese</label>
+    <select id="country" name="country">
+      <option value="italy">Italy</option>
+      <option value="spain">Spain</option>
+      <option value="germany">Germany</option>
+      <option value="france">France</option>
+      <option value="gb">Great Britain</option>
+      <option value="usa">USA</option>
+      <option value="russia">Russia</option>
+      <option value="china">China</option>
+    </select>
+
+    <label for="subject">Oggetto</label>
+    <input type="text" id="subject" name="subject" placeholder="Oggetto segnalazione.."/>
+    <label for="text">Testo</label>
+    <textarea id="text" name="text" placeholder="Scrivere segnalazione.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>

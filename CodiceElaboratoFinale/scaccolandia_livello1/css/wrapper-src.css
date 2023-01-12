@@ -1,0 +1,142 @@
+body {
+  position: relative;
+  touch-action: none;
+  overflow: hidden; /* Hide scrollbars */
+}
+h1,header {
+  grid-area: header;
+  color: red;
+  font-family: "Sofia", Caladea, sans-serif;
+  text-align: center;
+  text-shadow: 3vmin 3vmin 3vmin #ababab;
+  font-size: 7vmin;
+}
+#chessboard {
+  grid-area: chessboard;
+  background-color: lightgray;
+  box-shadow: 1em 1em .5em #dedede;
+  border-radius: 1em;
+  padding: 1%;
+}
+#esatto,
+#sbagliato,
+#inizio {
+  position: fixed;
+  left: 1vmin;
+  bottom: 1vmin;
+  width: 30vmin;
+  height: 30vmin;
+}
+#palette {
+  display: grid;
+  grid-area: palette;
+}
+@media  (orientation: landscape) {
+  #chessboard{
+    width: 80vmin;
+  }
+
+  #wrapper {
+    grid-template-columns: auto 20vh auto 80vh auto;
+    grid-auto-rows: 12vh minmax(min-content, max-content);
+    grid-template-areas:
+  "... header  header header     ..."
+  "... palette ...    chessboard ...";
+  }
+  #palette {
+    grid-column-gap: 3vw;
+    grid-template-columns: repeat(2, 7vh);
+    grid-template-rows: repeat(4, 10vh);
+  }
+  .square {
+    border: .1em solid #555;
+    box-shadow: .4vh .4vh;
+  }
+  @media (max-height: 600px){
+    #chessboard{
+      width: 68vmin;
+    }
+  }
+}
+#wrapper {
+  display: grid;
+  /*color: #444;*/
+}
+@media  (orientation: portrait) {
+  #wrapper {
+    grid-template-columns: minmax(60%, 70vh);
+    grid-template-areas:
+    "header"
+    "chessboard"
+    "palette";
+  }
+  #palette {
+    grid-template-columns: repeat(8, 6.4vh);
+    grid-column-gap: 1vw;
+    padding:5vh 5vw 5vh 20vw;
+  }
+  #wrapper{
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+  .square {
+    border: .1em solid #555;
+    box-shadow: .2em .2em;
+  }
+  #esatto,
+  #sbagliato,
+  #inizio {
+    left: 2vmin;
+    bottom: 3vmin;
+    width: 25vmin;
+    height: 25vmin;
+  }
+  #header{
+    font-size:5vmin;
+  }
+  @media (max-aspect-ratio: 8/10){
+    #palette {
+      grid-template-columns: repeat(4, 8vw);
+      grid-gap: 2vmin;
+      padding: 5vh 5vw 5vh 50vw;
+    }
+  }
+  @media (max-aspect-ratio: 2/3){
+    #header{
+      font-size:8vmin;
+    }
+    #wrapper{
+      padding-left: 0;
+    }
+    #palette {
+      grid-template-columns: repeat(4, 8vw);
+      grid-gap: 8vmin;
+      padding: 5vh 10vw 5vh 30vw;
+    }
+  }
+
+  @media  (max-width: 600px) and (min-width: 330px) {
+    .square {
+      border: .08em solid #555;
+      box-shadow: .08em .08em;
+    }
+  }
+  @media  (max-width: 330px) {
+    .square {
+      border: .05em solid #555;
+      box-shadow: .05em .05em;
+    }
+  }
+  @media  (max-width: 240px) {
+    .square {
+      border: .01em solid #555;
+      box-shadow: .01em .01em;
+    }
+  }
+  @media  (max-width: 180px) {
+    .square {
+      border: 0 solid #555;
+      box-shadow: 0 0;
+    }
+  }
+}

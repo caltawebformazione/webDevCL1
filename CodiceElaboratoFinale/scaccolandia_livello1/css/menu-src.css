@@ -1,0 +1,123 @@
+#body-menu{
+  background: linear-gradient(45deg, peachpuff 0%, white 50%, cyan 100%);
+  overflow-y: hidden;
+}
+#carmelita,#vai{
+  width: 32vmin;
+  height: 22vmin;
+  position: fixed;
+}
+#vai{
+  right: 4vw;
+  bottom: 4vh
+}
+intestazione {
+  display: block;
+  color: red;
+  font-family: "Sofia", Caladea, sans-serif;
+  text-align: center;
+  text-shadow: 3vmin 3vmin 3vmin #ababab;
+  font-size: 7vmin;
+  font-weight: bold;
+  margin-left: 25%;
+}
+sottotitolo {
+  display: block;
+  color: #8db3e2;
+  font-family: "Sofia", Caladea, sans-serif;
+  font-size: 5vmin;
+  font-style: italic;
+  text-align: right;
+  width: 60%;
+  margin: 10%;
+  margin: 0 0 2% 27%;
+}
+
+#menu{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,max-content);
+  margin-top: 10vh;
+  margin-left: 2vw;
+  height: 64vh;
+  grid-row-gap: 2vh;
+}
+#menu>a{
+  height: 10vh;
+  width: 90vw;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 20vw 60vw;
+  grid-column-gap: 5vw;
+  grid-template-areas:
+    "menu-icon  menu-item-desc";
+  position:relative;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0.6vmin 0.6vmin 0.6vmin lightgray;
+  border-style:none;
+  border-width: 0.1vmin;
+  border-color: lightgray;
+  border-radius: 2vmin;
+  user-select: none;
+}
+#menu>a:active{
+  left:0.6vmin;
+  top:0.6vmin;
+  box-shadow: -0.6vmin -0.6vmin 0.6vmin lightgray;
+}
+#menu img{
+  /*height: 40%;*/
+  height: 5vh;
+  width:auto;
+  margin: 18%;
+  grid-area: menu-icon;
+  display: block;
+}
+menu-item-desc{
+  /*height: 40%;*/
+  height: 5vh;
+  /*width: 60%;*/
+  margin: 3%;
+  text-shadow: 0.6vmin 0.6vmin 0.6vmin lightgray;
+  text-align: right;
+  grid-area: menu-item-desc;
+  font-family: "Sofia", Caladea, sans-serif;
+  font-size: 5vmin;
+}
+@media (orientation: landscape){
+  #body-menu{
+    background: linear-gradient(45deg, peachpuff 0%, white 50%, cyan 100%);
+    overflow-y: hidden;
+  }
+  intestazione {
+    text-shadow: 4vmin 4vmin 4vmin #ababab;
+    font-size: 8vmin;
+  }
+  sottotitolo {
+    font-size: 8vmin;
+  }
+  #menu{
+    grid-template-columns: repeat(2,max-content);
+    grid-gap: 2vw ;
+  }
+
+  #menu>a{
+    height: 20vh;
+    width: 46vw;
+    grid-template-columns: 10vw 32vw;
+    grid-column-gap: 2vw;
+  }
+  #menu img{
+    height: 10vh;
+  }
+  menu-item-desc{
+    height: 10vh;
+  }
+}
+#l1,#l3{
+  color: #f79646;
+}
+#l2{
+  color: #76923c;
+}
+
